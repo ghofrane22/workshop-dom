@@ -1,0 +1,31 @@
+.items {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  justify-content: space-evenly;
+}
+.items .item button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  height: 60px;
+  width: 60px;
+}
+.active {
+  color: red;
+}
+button {
+  background-color: bisque;
+}
+.Total {
+  display: flex;
+  justify-content: center;
+  color: violet;
+}
+.item h4 {
+  color: violet;
+}
